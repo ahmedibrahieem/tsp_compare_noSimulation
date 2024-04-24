@@ -7,13 +7,6 @@ A simple implementation which provides decent results.
 Requires [python3](https://docs.python.org/3/), [matplotlib](https://matplotlib.org/) and [numpy](http://www.numpy.org/) to work
 
 --------
+The new update will not show the simulation of the anealing algorithn progress, but if you want to show them, you can go and uncomint ploting lines in the simulating_anealing file. The .dat files stores matrecies of the output of the comparison process. The ones with "1" at the end of the name (like "NN1.dat") are done by repeatin the iterations for 50 times and taking the average, while the ones without "1" at the end of the naem are done by 10 iterations only (like "NN.dat"). Those files are for referencing. 
 
-An example of the resulting route on a TSP with 70 nodes on 200x200 grid.
-
-<p align="center"><img src="https://media.giphy.com/media/3ohjUONfy5IqbaX1kY/giphy.gif" width="400"></p>
-
--------
-
-An example of learning progress expressed as the distance of the path over the time
-
-<p align="center"><img src="https://i.imgur.com/lk6v1V3.png" width="400"></p>
+A problem we have currently is that some times the simulated anealing algorithm does not work, and I do not know why.  
